@@ -3,4 +3,21 @@ body {
   margin: auto;
   max-width: 38rem;
   padding: 2rem;
+  user-select: none;
+}
+.box-selector-one{
+  position: absolute;
+  left: 30vw;
+  top: 30vh;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 11px;
+  background-color: white;
+  left: 11vw;
+}
+.box-content-text{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: lighter;
 }
