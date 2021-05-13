@@ -16,8 +16,54 @@ body {
   background-color: white;
   left: 11vw;
 }
+.box-selector-one{
+  transition: .6s;
+}
+.box-selector-one:hover{
+  cursor: pointer;
+  transition: .6s;
+  box-shadow: 3px 3px black;
+}
 .box-content-text{
   text-align: center;
   text-transform: uppercase;
   font-weight: lighter;
+}
+.error-msg{
+  position: absolute;
+  width: 60vw;
+  height: 8vh;
+  background-color: rgba(245, 66, 69, .5);
+  border: 4px solid rgb(245, 66, 69);
+  color: white;
+  text-shadow: 1px 1px black;
+  text-align: center;
+  font-size: 10px;
+  font-weight: lighter;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.create-button{
+  position: absolute;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #4362b0;
+  color: white;
+  cursor: pointer;
+  font-size: 5vh;
+  left: 55vw;
+  top: 45vh;
+}
+.prj-name{
+  position: absolute;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  color: black;
+  font-size: 5vh;
+  left: 55vw;
+  top: 35vh;
+  width: 290px;
 }

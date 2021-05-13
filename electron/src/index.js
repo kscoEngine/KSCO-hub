@@ -8,7 +8,11 @@ const createWindow = () => {
     width: 900,
     height: 550,
     title: "KSCO - Hub",
-    resizable:false
+    resizable:false,
+    webPreferences: {
+      nodeIntegration: true,
+      contextIsolation: false
+    }
   });
 
   mainWindow.loadFile(path.join(__dirname, 'index.html'));

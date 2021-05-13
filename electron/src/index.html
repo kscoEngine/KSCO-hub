@@ -5,9 +5,16 @@
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <div class="box-selector-one">
+    <div class="box-selector-one" id="box-selector-one" onclick="two_d_selected()">
       <h1 class="box-content-text">2d Project</h1>
     </div>
-    
+    <div class="file-container">
+      <input class="prj-name" type="text" maxlength="18" placeholder="Project Name" spellcheck="false">
+      <a class="create-button">Create Project</a>
+    </div>
+    <div class="error-msg">
+      <h1>You must select a project type before continuing</h1>
+    </div>
+    <script src="./manager/dim_selector.js"></script>
   </body>
 </html>
